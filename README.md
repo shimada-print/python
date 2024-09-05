@@ -1,12 +1,12 @@
 # Python  
 ## インストール 
 ### anacondaをインストール
-anaconda（アナコンダ）とはPythonで高度な開発をするツールですが、　　
+anaconda（アナコンダ）とはPythonで高度な開発をするツールですが、  
 容量が約４GBほど必要に対し、以下のPython.exeという単体なら、  
 数十MBやanacondaだとPython.exeの最新バージョンを使用できない  
-可能性があるので、下記のように単体でもインストールするのがお勧めです。  
+能性があるので、下記のように単体でもインストールするのがお勧めです。  
 
-また環境変数はanacondaでは設定せずに、下記のPython.exeの最新バージョン 
+また環境変数はanacondaでは設定せずに、下記のPython.exeの最新バージョン  
 では設定するのがお勧めです。anacondaではJupyter Notebookなどを使うのを  
 主とし、Python.exeの最新バージョンでは最新トレンドの把握などと考えています。
 
