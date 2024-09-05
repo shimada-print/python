@@ -28,6 +28,6 @@ pip install setuptools
 ![PowerShallで実行する](./image/cmd_pip-install-setuptools.jpg)  
 
 ### 起動には開発・デプロイ・クライアントOSが違うので書類の変更が必要
-Windowsのターミナルでは初期設定で書類読み込みは、uft-8（ユニコード）ではなくANSI（ShiftJIS）になっているのに対し、githubではuft-8のの改行コードがLF（UnixやMac）になっているので、ダウンロードしWindowsで起動する場合は、ダブルクリックで起動する書類だけは、ANSIのCR+LF（Windowsの改行コード）でメモ帳などで保存（変更）してください。  
+Windowsのターミナルでは初期設定で書類読み込みは、uft-8（ユニコード）ではなくANSI（ShiftJIS）になっているのに対し、デプロイ（設置）するgithubではuft-8のの改行コードがLF（UnixやMac）になっているので、クライアントPC（閲覧者のPC）にダウンロードしWindowsで起動する場合は、ダブルクリックで起動する書類だけは、ANSIのCR+LF（Windowsの改行コード）でメモ帳などで保存（変更）してください。  
 
 あるいはWindowsのターミナルでuft-8で読み込む方法もありますが、少し複雑なのと、昔からの業務スクリプトなどがANSIが多い点からして、上記の書類を変更が無難です。
