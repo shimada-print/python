@@ -1,17 +1,26 @@
-# Pythonの環境変数を表示するスクリプト
+# Python  
+## インストール 
+### anacondaをインストール
+anaconda（アナコンダ）とはPythonで高度な開発をするツールですが、　　
+anaconda（アナコンダ）とはPythonで高度な開発をするツールですが、  
+容量が約４GBほど必要に対し、以下のPython.exeという単体なら、  
+数十MBやanacondaだとPython.exeの最新バージョンを使用できない  
+可能性があるので、下記のように単体でもインストールするのがお勧めです。  
 
-python-env_start.batをダブルクリックすると、  
-python-env.pyが起動し、Pythonの環境変数を  
-表示します。  
+また環境変数はanacondaでは設定せずに、下記のPython.exeの最新バージョン 
+また環境変数はanacondaでは設定せずに、下記のPython.exeの最新バージョン  
+では設定するのがお勧めです。anacondaではJupyter Notebookなどを使うのを  
+主とし、Python.exeの最新バージョンでは最新トレンドの把握などと考えています。
 
-### 起動には開発OSが違うので変更が必要です
-Windowsのターミナルでは初期設定で書類読み込みは、  
-uft-8（ユニコード）ではなくANSI（ShiftJIS）に  
-なっているのに対し、githubではuft-8のの改行コード  
-がLF（UnixやMac）になっているので、ダウンロードした  
-場合は、書類をANSIのCR+LF（Windowsの改行コード）で  
-メモ帳などで保存（変更）してください。  
+Python.exeをインストールする直前に環境変数を自分で設定するのは、  
+慣れていても面倒なので、レ点にチェックの同時インストールがお勧めです。  
 
-あるいはWindowsのターミナルでuft-8で読み込む方法  
-もありますが、少し複雑なのと、昔からの業務スクリプト  
-などがANSIが多い点からして、上記の書類を変更が無難です。
+### Python.exeの最新バージョンをインストール
+Python.exeをインストールする直前に環境変数を自分で設定するのは、  
+慣れていても面倒なので、レ点にチェックの同時インストールがお勧めです。
+```
+pip install setuptools
+```
+上記のコマンドをWindowsPowerShellなどで入力すると、  
+下記のようになればインストールは成功です。
+![PowerShallで実行する](./image/cmd_pip-install-setuptools.jpg)  
