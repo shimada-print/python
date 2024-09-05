@@ -11,6 +11,6 @@ Python.exeをインストール直後だとpip installでsetuptoolsなどが
 ```
 pip install setuptools
 ```
-上記のコマンドをWindowsPowerShellなどで入力すると、  
+上記のコマンドをWindowsPowerShellなどでコピー＆ペーストをすると、  
 下記のようになればインストールは成功です。  
 ![PowerShallで実行する](./image/cmd_pip-install-setuptools.jpg)  
