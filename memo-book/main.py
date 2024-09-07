@@ -4,8 +4,9 @@
 
 # 標準ライブラリのみ
 import tkinter as tk
-# AIが以下を出力しない場合もあり無いと起動しない
+# AIが以下のfiledialogを出力しない場合もあり無いと起動しない
 from tkinter import filedialog
+# 書類名に保存日時を表示させるための標準ライブラリ
 import datetime
 
 # 検索と置換
