@@ -1,4 +1,5 @@
 ## 「日時も保存するメモ帳 ver.1」
+![Pythonアプリをプログラミングする少女](./image/python_memo-book.jpg)  
 ### Webスクリプトではなくアプリ
 アプリなのでWindowsなどのOS上で動くメモ帳。シンプルなのでユーザーのOSにPowerShellCoreがインストール済みなら、MacやLinux（Unix）でも動くかもしれない。  
 
