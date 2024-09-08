@@ -1,5 +1,5 @@
 ## PythonとAIで「日時も保存するメモ帳（初心者が日報を混乱なく書き込めるシステム）」を1時間ほどで作ってみた
-![Pythonアプリをプログラミングする少女](./image/python_memo-book.jpg)  
+![Pythonアプリをプログラミングする少女](./image/python_memo-book_note.jpg)  
 ### 初心者が日報などの入力する仕事をしやすくするにはシンプルに
 アプリなのでWindowsなどのOS上で動くメモ帳を、AIに数秒でプログラミングさせた。しかしその前の企画を考えたり、README.md（詳細を述べた説明文はAIだと生成しづらい）を作るのに1時間弱かかった。シンプルなのでユーザーのOSにPowerShellCoreがインストール済みなら、MacやLinux（Unix）でも動くかもしれない。 
 
