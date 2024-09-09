@@ -1,6 +1,6 @@
 他のサイトから来た方、閲覧ありがとうございます。READMME.md（本説明文.マークダウン書類）は本プロジェクトの原文作成コーナーになっており、省略無しの最新版となっております。  
 
-しかし本文の以下で「:::message alert」（[ZennのMarkdown記法一覧](https://zenn.dev/zenn/articles/markdown-guide)を参照）などと誤表記されていますが、これは本サイトでは表示できないマークダウンの確認・情報収集のために、修正していません。Zenn版の本書類は[コレ)](https://zenn.dev/shimada_print/articles/6f6f1d91373384)です。  
+しかし本文の以下で「:::message alert」（[ZennのMarkdown記法一覧](https://zenn.dev/zenn/articles/markdown-guide)を参照）などと誤表記されていますが、これは本サイトでは表示できないマークダウンの確認・情報収集のために、修正していません。Zenn版の本書類は[コレ](https://zenn.dev/shimada_print/articles/6f6f1d91373384)です。  
 
 では、以下が本プロジェクトの説明文となります。
 
