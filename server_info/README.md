@@ -21,6 +21,7 @@ OSでも付属機能でこれらは分かりますが、一覧にしているの
 ### プロジェクト名「server_info」の仕様
 ~~~
 server_info/
+├── README.md ←仕様書。本書類。
 ├── main.py　← この本体書類をダブルクリックで起動可能
 ├── static/　← CSSやJSなどもデプロイ
 │   └── python_server_net.jpg
@@ -28,3 +29,14 @@ server_info/
 └── templates/
     ├── index.html ← 今回はこの書類だけでページレイアウト
 ~~~
+
+### 本プロジェクトを動作させるには追加のインストールが必要かもしれません
+#### netifacesのインストールが出来ない場合はコレをする
+~~~
+pip install netifaces
+~~~
+などをしようとすると「error: Microsoft Visual C++ 14.0 or greater is required」と表示されて、インストールが出来ない場合があります。これはMicrosoft Visual C++ 14.0 以上という、「Microsoft Visual C++ Build Tools」の「Windows 10 SDK」と「C++ x64/x86 ビルド ツール」がインストールされていないのが起因です。
+
+まずはこれらをhttps://visualstudio.microsoft.com/visual-cpp-build-tools/からインストーラーをダウンロードし、インストールした後にnetifacesのインストールをしましょう。
+
+netifacesを使っていないスクリプトでも、どの道、仕事で求められるようなプロジェクトは高機能ですので、VC++14以上というよりも最新版の情報は知っておいた方が良いです。古く簡単なプログラミングは人手要らずなAIで、簡単に作成できてしまいますからね。
