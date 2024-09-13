@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python Webサーバー情報</title>
+</head>
+<body>
+    <div align="center">
+    <h1>Python Webサーバー情報</h1>
+    <img src="/static/python_server_net.jpg">
+    <p>サーバー名: {{ node }}</p>
+    <p>OS: {{ system }}{{ release }}</p>
+    <p>バージョン: {{ version }}</p>
+    <p>CPUコア数: {{ cpu_count }}</p>
+    <p>CPU使用率: {{ cpu_percent }}%</p>
+    <p>メモリ使用率: {{ mem_percent }}%</p>
+    <p>ディスク使用率: {{ disk_percent }}%</p>
+    <p>IPアドレス:
+        {% for ip in ip_addresses %}
+        {{ ip }}
+        {% endfor %}
+    </p>
+    </div>
+</body>
+</html>
