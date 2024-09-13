@@ -21,7 +21,7 @@ OSでも付属機能でこれらは分かりますが、一覧にしているの
 ### プロジェクト名「server_info」の仕様
 ~~~
 server_info/
-├── README.md ←仕様書。本書類。
+├── README.md ← 仕様書。本書類。
 ├── main.py　← この本体書類をダブルクリックで起動可能
 ├── static/　← CSSやJSなどもデプロイ
 │   └── python_server_net.jpg
