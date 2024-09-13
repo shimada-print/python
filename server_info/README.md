@@ -37,6 +37,6 @@ pip install netifaces
 ~~~
 などをしようとすると「error: Microsoft Visual C++ 14.0 or greater is required」と表示されて、インストールが出来ない場合があります。これはMicrosoft Visual C++ 14.0 以上という、「Microsoft Visual C++ Build Tools」の「Windows 10 SDK」と「C++ x64/x86 ビルド ツール」がインストールされていないのが起因です。
 
-まずはこれらをhttps://visualstudio.microsoft.com/visual-cpp-build-tools/からインストーラーをダウンロードし、インストールした後にnetifacesのインストールをしましょう。
+まずはこれらを[マイクロソフトの公式サイト](https://visualstudio.microsoft.com/visual-cpp-build-tools/)からインストーラーをダウンロードし、インストールした後にnetifacesのインストールをしましょう。ただしVisual Studioをインストール済みなら、その内部な機能から出来ます。
 
 netifacesを使っていないスクリプトでも、どの道、仕事で求められるようなプロジェクトは高機能ですので、VC++14以上というよりも最新版の情報は知っておいた方が良いです。古く簡単なプログラミングは人手要らずなAIで、簡単に作成できてしまいますからね。
