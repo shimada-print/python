@@ -25,5 +25,5 @@ server_info/
 │   └── python_server_net.jpg
 │   └── immges/ ← こうしても可能だが、今回は小さいプロジェクトなので省略
 └── templates/
-    ├── index.html
+    ├── index.html ← 今回はこの書類だけでページレイアウト
 ~~~
