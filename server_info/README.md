@@ -22,7 +22,7 @@ OSでも付属機能でこれらは分かりますが、一覧にしているの
 ~~~
 server_info/
 ├── main.py　← この本体書類をダブルクリックで起動可能
-├── static/　← python_server_net.jpg
+├── static/　← CSSやJSなどもデプロイ
 │   └── python_server_net.jpg
 │   └── immges/ ← こうしても可能だが、今回は小さいプロジェクトなので省略
 └── templates/
