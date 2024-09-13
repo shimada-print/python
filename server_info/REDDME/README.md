@@ -1,5 +1,5 @@
 # Python Webサーバー情報
-<img src="./static/python_server_net.jpg">
+<img src="static/python_server_net.jpg">
 ## PythonスクリプトでWebサーバーを作りサーバーの動作環境を知る
 Webサーバーソフトは少ないコード数で、簡単に作れます。本スクリプトはWindowsでもLinux/Macでも動作します。  
 
