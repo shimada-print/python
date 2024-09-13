@@ -20,7 +20,7 @@ OSでも付属機能でこれらは分かりますが、一覧にしているの
 ### プロジェクト名「server_info」の仕様
 ~~~
 server_info/
-├── main/py　← この本体書類をダブルクリックで起動可能
+├── main.py　← この本体書類をダブルクリックで起動可能
 ├── static/　← python_server_net.jpg
 │   └── python_server_net.jpg
 │   └── immges/ ← こうしても可能だが、今回は小さいプロジェクトなので省略
