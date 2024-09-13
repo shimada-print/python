@@ -1,4 +1,4 @@
-# PythonでWebサーバーを作り情報を一覧表にし効率良くクライアントPCを管理をする
+# PythonでWebサーバーを作り情報を一覧表にし効率良くクライアントPCの管理をする
 <img src="./static/python_server_net.jpg">
 
 ## PythonスクリプトでWebサーバーを作りサーバーの動作環境を知る
